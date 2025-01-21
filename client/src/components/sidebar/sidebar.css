@@ -1,0 +1,17 @@
+.sidebar-section{
+    display:flex;
+    background-color: #93fff4da;
+}
+.sidebar{
+    height: 10vh;
+    background-color: #030303da;
+    width: 95px;
+}
+.container-fluid{
+    padding-left: 0px!important;
+    padding-right: 0px!important;
+    overflow: hidden;
+}
+.expand-collapse-icon{
+    
+}

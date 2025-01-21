@@ -1,12 +1,13 @@
 import React from 'react';
+import Sidebar from './components/sidebar/sidebar';
 
 
 const App = () => {
   return (
-    <div>
-      <button className='btn btn-success'> App </button>
-    </div>
-  )
-}
+    
+      <Sidebar/> 
 
-export default App;
+  );
+};
+
+export default App; 
