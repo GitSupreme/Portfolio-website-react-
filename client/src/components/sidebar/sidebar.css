@@ -1,11 +1,18 @@
 .sidebar-section{
     display:flex;
-    background-color: #93fff4da;
+    background-color: #ffffffda;
 }
 .sidebar{
-    height: 10vh;
-    background-color: #030303da;
+    height: 100vh;
+    background-color: #22292ada;
     width: 95px;
+    /* position:fixed; */
+}
+.sidebar-expand{
+    height: 100vh;
+    background-color: #22292ada;
+    width: 320px;
+    /* position:fixed; */
 }
 .container-fluid{
     padding-left: 0px!important;
@@ -13,5 +20,16 @@
     overflow: hidden;
 }
 .expand-collapse-icon{
-    
+    display: flex;
+    align-items: right;
+    justify-content: right;
+    cursor: pointer;
+}
+.expand-collapse-icon p svg{
+    /* display: inline-block; */
+    margin-top: 50px;
+    background-color: #19092c;
+    padding: 5px;
+    color: white;
+    /* border-radius: 5px; */
 }

@@ -1,0 +1,29 @@
+.sidebar-profile-pic img{
+    margin: 0 auto;
+    /* vertical-align: middle; */
+    object-fit: cover;
+    cursor: pointer;
+    height: 120px;
+    width:120px;
+    border-radius: 90px;
+    display:flex;
+    border: 2px solid white;
+    margin-bottom: 30px;
+}
+.empty-holder{
+    height: 120px;
+    width:120px; 
+}
+
+.nav-item{
+    list-style-type: none;
+    color:white;
+    margin-top: 30px;
+    cursor: pointer;
+}
+
+
+.nav-item svg{
+    margin-left:5px;
+    margin-right:10px;
+}
