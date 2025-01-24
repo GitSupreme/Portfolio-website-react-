@@ -1,3 +1,6 @@
-/* .homeText{
-    
-} */
+.home{
+    height: 250px;
+    align-content: center;
+    background-color: #8ecad3da;
+    /* width:500px; */
+}

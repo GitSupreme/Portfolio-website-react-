@@ -1,8 +1,13 @@
 import React from 'react';
+import'./home.css';
 
 const Home = () => {
     return(
-        <p className='homeText'>This is the home page</p>
+
+        <div className='home'>
+            show
+        </div>
+
     )
 }
 

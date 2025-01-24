@@ -19,11 +19,21 @@
     list-style-type: none;
     color:white;
     margin-top: 30px;
+    align-items: baseline;
     cursor: pointer;
 }
-
+.icon-only{
+    list-style-type: none;
+    color:white;
+    margin-top: 30px;
+    cursor: pointer;
+}
+/* .nav-text{
+    align-self: baseline;
+} */
 
 .nav-item svg{
     margin-left:5px;
     margin-right:10px;
+
 }

@@ -15,10 +15,13 @@ const Sidebar = () => {
 
     return (
 
-        <div className='container-fluid sidebar-section'>
-            
+        <div className='sb-and-home'>
+
+            {/* {sidebar itself with stateful condition to 
+            specify className based on whether expanded or not} */}
             <div className = {expandSideBar ? 'sidebar':'sidebar-expand'}>
                 
+                {/*sidebar expand and collapse icon*/}
                 <div className='expand-collapse-icon'>
                     <p onClick={handleExpandClick}>
                         {expandSideBar ? 
@@ -27,10 +30,18 @@ const Sidebar = () => {
                         }
                     </p>
                 </div>
-                <SidebarItems expandSideBar={expandSideBar}/>
-            </div>
 
-            <div className='container'>
+                {/*Profile picture and nav items exported from sideItems file. 
+                The tag is however provided an signal transmitter to inform sideItems.js
+                of whether sidebar is expanded or not*/}
+                <SidebarItems expandSideBar={expandSideBar}/>
+
+            </div>
+            
+
+            {/*Home section content shown 
+            while Home navbar link is active*/}
+            <div className='imported-home'>
                 <Home/>
             </div>
 

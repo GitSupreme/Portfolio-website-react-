@@ -2,34 +2,60 @@
     display:flex;
     background-color: #ffffffda;
 }
+
 .sidebar{
+
     height: 100vh;
-    background-color: #22292ada;
+    background-color: #334949da;
     width: 95px;
     /* position:fixed; */
 }
+
 .sidebar-expand{
     height: 100vh;
-    background-color: #22292ada;
+    background-color: #334949da;
     width: 320px;
-    /* position:fixed; */
+
+    
 }
-.container-fluid{
+
+.imported-home{
+    width: 100%; 
+    padding-right: 40px; 
+    padding-left: 40px;
+    margin-right: auto;
+    margin-left: auto; 
+}
+
+.sb-and-home{
+    display:flex;
     padding-left: 0px!important;
     padding-right: 0px!important;
     overflow: hidden;
 }
+
+
+/* .container-fluid{
+    display:flex;
+    padding-left: 0px!important;
+    padding-right: 0px!important;
+    overflow: hidden;
+    /* background-color: aqua; */
+ */
+
 .expand-collapse-icon{
     display: flex;
+    justify-content: flex-end; 
     align-items: right;
-    justify-content: right;
-    cursor: pointer;
+    width: 100%; 
 }
+
 .expand-collapse-icon p svg{
-    /* display: inline-block; */
+    display: inline-block;
     margin-top: 50px;
     background-color: #19092c;
     padding: 5px;
     color: white;
-    /* border-radius: 5px; */
+    border-radius: 5px;
+    cursor: pointer;
 }

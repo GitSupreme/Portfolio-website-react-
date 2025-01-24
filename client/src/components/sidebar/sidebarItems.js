@@ -16,28 +16,28 @@ const SidebarItems = ({expandSideBar}) => {
                     </div>
 
                     <ul>
-                        <li className="nav-item">
+                        <li className="icon-only">
                             <FcHome size={21}/>
                         </li>
-                        <li className="nav-item">
+                        <li className="icon-only">
                             <FcReadingEbook size={26}/>
                         </li>
-                        <li className="nav-item">
+                        <li className="icon-only">
                             <FcBriefcase size={23}/>
                         </li>
-                        <li className="nav-item">
+                        <li className="icon-only">
                             <FcServices className="tech-stack" size={25}/>
                         </li>
-                        <li className="nav-item">
+                        <li className="icon-only">
                             <FcGraduationCap size={23}/>
                         </li>
-                        <li className="nav-item">
+                        <li className="icon-only">
                             <FcTodoList size={23}/>
                         </li>
-                        <li className="nav-item">
+                        <li className="icon-only">
                             <FcCollaboration size={23}/>
                         </li>
-                        <li className="nav-item">
+                        <li className="icon-only">
                             <FcBusinessContact size={23}/>
                         </li>
                     </ul>
@@ -54,7 +54,7 @@ const SidebarItems = ({expandSideBar}) => {
                     {/* {Sidebar Navigation links with icons} */}
                     <ul>
                         <li className="nav-item">
-                            <FcHome size={18}/>
+                            <FcHome size={20}/>
                             Home
                         </li>
                         <li className="nav-item">
