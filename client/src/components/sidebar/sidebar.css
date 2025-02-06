@@ -1,61 +1,48 @@
 .sidebar-section{
-    display:flex;
-    background-color: #ffffffda;
+    display: flex;
+    background-color: #030303da;
 }
 
 .sidebar{
-
     height: 100vh;
     background-color: #334949da;
     width: 95px;
-    /* position:fixed; */
+    /* position: fixed; */
+
 }
 
-.sidebar-expand{
-    height: 100vh;
-    background-color: #334949da;
+
+.sidebar-expand {
     width: 320px;
-
-    
 }
 
-.imported-home{
-    width: 100%; 
-    padding-right: 40px; 
-    padding-left: 40px;
-    margin-right: auto;
-    margin-left: auto; 
-}
+.icon-for-sidebar-expand-and-collapse{
 
-.sb-and-home{
-    display:flex;
-    padding-left: 0px!important;
-    padding-right: 0px!important;
-    overflow: hidden;
-}
-
-
-/* .container-fluid{
-    display:flex;
-    padding-left: 0px!important;
-    padding-right: 0px!important;
-    overflow: hidden;
-    /* background-color: aqua; */
- */
-
-.expand-collapse-icon{
     display: flex;
-    justify-content: flex-end; 
     align-items: right;
-    width: 100%; 
+    justify-content: right;
+    cursor: pointer;
 }
 
-.expand-collapse-icon p svg{
-    display: inline-block;
-    margin-top: 50px;
+.icon-for-sidebar-expand-and-collapse p svg{
+
     background-color: #19092c;
     padding: 5px;
     color: white;
     border-radius: 5px;
-    cursor: pointer;
+    margin-top: 50px;
+    cursor:pointer;
+}
+
+
+.container-fluid{
+    padding-left: 0px!important;
+    padding-right: 0px!important;
+    overflow: hidden;
+}
+
+@media (max-width:1000px) {
+    .sidebar{
+        display: none;
+    }
 }
