@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/img-redundant-alt */
 import React, { useState } from "react";
 import "./Contact.css";
 import { RiSendPlaneFill } from "react-icons/ri";
@@ -8,7 +9,7 @@ import "react-toastify/dist/ReactToastify.css";
 import Fade from "react-reveal/Fade";
 
 const Contact = () => {
-  const API = "http://localhost:3000/sendemail";
+  const API = "http://localhost:5000/sendemail";
 
   const [name, setName] = useState();
   const [email, setEmail] = useState();

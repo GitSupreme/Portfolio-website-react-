@@ -27,16 +27,13 @@ const About = () => {
 
             <Fade right>
               <p>
-                It is a long established fact that a reader will be distracted
-                by the readable content of a page when looking at its layout.
-                The point of using Lorem Ipsum is that it has a more-or-less
-                normal distribution of letters, as opposed to using 'Content
-                here, content here', making it look like readable English. Many
-                desktop publishing packages and web page editors now use Lorem
-                Ipsum as their default model text, and a search for 'lorem
-                ipsum' will uncover many web sites still in their infancy.
-                Various versions have evolved over the years, sometimes by
-                accident, sometimes on purpose (injected humour and the like).
+                Jephtha Bofa Amakye is a software engineer and data analyst based in Accra, Ghana, with expertise in backend development, data analysis, and IT support. 
+                He holds a Bachelor's degree in Information Technology from the University of Ghana and has gained experience through roles at GCAA, Enorince Technologies, and Axis Drone Surveys. 
+                His technical skills include Python, React.js, Node.js, RESTful APIs, SQL, and data visualization tools like Power BI. Jephtha is passionate about using technology to optimize workflows, enhance system performance, and create user-friendly applications. 
+                His notable projects include a portfolio website, an inventory management system, and a business management web and mobile application. 
+                Beyond coding, he explores tech trends, contributes to open-source projects, and mentors aspiring developers. 
+                He is eager to collaborate on impactful projects and create innovative solutions. His profile highlights his technical expertise, problem-solving skills, and collaborative mindset to attract potential employers.<br/><br/>
+                Let’s connect and create something amazing together!
               </p>
             </Fade>
           </div>
