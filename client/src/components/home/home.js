@@ -2,7 +2,8 @@ import React from "react";
 import "./Home.css";
 import Typewriter from "typewriter-effect";
 import Resume from "./Resume.pdf";
-import { BsFillMoonStarsFill, BsFillSunFill } from "react-icons/bs";
+import { BsFillMoonStarsFill, BsFillSunFill, BsFillFileEarmarkArrowDownFill } from "react-icons/bs";
+
 import Fade from "react-reveal/Fade";
 
 import { Link } from "react-scroll";
@@ -22,7 +23,7 @@ const Home = ({ theme, changeTheme }) => {
         )}
       </div>
 
-      <div className="container home-content">
+      <div className={`container home-content ${theme === "dark" ? "dark-text" : ""}`}>
         <Fade right>
           <h1>Jephtha Bofa Amakye welcomes you to his portfolio</h1>
           <h4 style={{ paddingTop: 20 }}>Explore for more</h4>
@@ -32,10 +33,11 @@ const Home = ({ theme, changeTheme }) => {
               <Typewriter
                 options={{
                   strings: [
-                    "Full Stack Software Developer",
-                    "Web Developer",
+                    "Web developer",
                     "Data Analyst",
                     "UI/UX Designer",
+                    "Data Entry Specialist",
+                    "IT support specialist",
                   ],
                   autoStart: true,
                   loop: true,
@@ -60,6 +62,7 @@ const Home = ({ theme, changeTheme }) => {
             <div className="get-resume-button">
               <a href={Resume} download="Jephtha_Resume.pdf">
                 Get Resume
+                <BsFillFileEarmarkArrowDownFill style={{paddingLeft : 10}}size={27}/>
               </a>
             </div>
           </div>

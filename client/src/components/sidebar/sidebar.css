@@ -1,20 +1,14 @@
+.home{
+    width:100%;
+}
+
 .sidebar-section{
+    height:100vh;
     display: flex;
-    background-color: #030303da;
-}
-
-.sidebar{
-    height: 100vh;
-    background-color: #334949da;
-    width: 95px;
-    /* position: fixed; */
+    background-color: #e9e4e4ed;
 
 }
 
-
-.sidebar-expand {
-    width: 320px;
-}
 
 .icon-for-sidebar-expand-and-collapse{
 

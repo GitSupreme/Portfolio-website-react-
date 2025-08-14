@@ -1,3 +1,8 @@
+.app-content {
+  margin-left: 16.5%;
+  overflow-x: hidden;
+}
+
 ::-webkit-scrollbar{
   width: 8px;
   height: auto;

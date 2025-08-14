@@ -115,7 +115,7 @@ const Testimonial = () => {
     "#FF1042",
   ];
   return (
-    <div className="container testimonial-section" id="testimonial">
+    <div className="container testimonial-section" id="references">
       <div className="section-title">
         <h5>Testimonial</h5>
         <span className="line"></span>

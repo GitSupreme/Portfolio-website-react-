@@ -21,18 +21,22 @@ const App = () => {
   };
 
   return (
+
     <ThemeContext.Provider value={{ theme, changeTheme }}>
       <div id={theme}>
-        <NavbarMobileView changeTheme={changeTheme} theme={theme}/>
+        <NavbarMobileView changeTheme={changeTheme} theme={theme} />
 
-        <Sidebar changeTheme={changeTheme} theme={theme}/>
-        <About />
-        <WorkExperience />
-        <TechStack />
-        <Education />
-        <Project />
-        <Testimonial />
-        <Contact />
+        <Sidebar changeTheme={changeTheme} theme={theme} />
+        <div className="app-content">
+          <About />
+          <WorkExperience />
+          <TechStack />
+          <Education />
+          <Project />
+          <Testimonial />
+          <Contact />
+        </div>
+
       </div>
 
       <ScrollToTop
@@ -44,6 +48,8 @@ const App = () => {
         style={{ borderRadius: "90px", backgroundColor: "#38004c" }}
       />
     </ThemeContext.Provider>
+
+
   );
 };
 

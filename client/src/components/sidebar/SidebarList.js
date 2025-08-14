@@ -1,4 +1,4 @@
-import React from "react";
+import React, {useState} from "react";
 import "./SidebarList.css";
 import profilepic from "../../Image/a.jpg";
 
@@ -7,14 +7,28 @@ import {FcHome, FcTodoList,
   FcCollaboration, FcGraduationCap, 
   FcServices, FcBusinessContact} 
   from "react-icons/fc";
+  import { BsChevronLeft, BsChevronRight } from "react-icons/bs";
 
 import { Link } from "react-scroll";
 
-const SidebarList = ({ expandSidebar }) => {
+  
+const SidebarList = () => {
+    const [expandSidebar, setExpandSidebar] = useState(true);
+
+    const handleExpandClick = () => {
+      setExpandSidebar(!expandSidebar);
+  };
+
   return (
     <React.Fragment>
       {expandSidebar ? (
         <div className="navbar-items">
+          <div className="icon-for-sidebar-expand-and-collapse">
+                    <p onClick={handleExpandClick}>
+                        <BsChevronLeft size={30} />
+                    </p>
+          </div>
+
           <div className="sidebar-profile-pic">
             <img src={profilepic} alt="profile picture" />
           </div>
@@ -113,9 +127,16 @@ const SidebarList = ({ expandSidebar }) => {
         </div>
       ) : (
         <div className="navbar-items-only-icons">
+          <div className="icon-for-sidebar-expand-and-collapse">
+                    <p onClick={handleExpandClick}>
+                        <BsChevronRight size={30} />
+                    </p>
+          </div>
+          
           <div id="placeholder">
             
           </div>
+        
           <ul>
             <li className="nav-item">
               <Link
